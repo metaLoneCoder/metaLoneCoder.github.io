@@ -6,6 +6,15 @@ title: Oculus Quest 2 Unity Development Environment Setup
 Unity 2020.3.29f1 **LTS** 
 {: .message }
 
+## Install Unity Editor
+
+- Go to the Unity Download page, click Download Unity Hub, and then install it.
+- On the Installs tab, click Add, and then select the Unity version from the list.
+- In the Add modules to your install window, select Android Build Support, and then do the following:
+1. Expand Android Build Support
+2. Select Android SDK & NDK Tools and OpenJDK.
+
+
 ## Build Settings
 
 It is recommend that you set the app’s target platform to Android, prior to performing any other project settings as there are a variety of settings that depend on it.
@@ -39,6 +48,7 @@ With the Unity version 2019.3 and higher, Unity has introduced the XR plug-in fr
 4. Select Low Overhead Mode to skip error checking in release versions of an app. This is applicable to apps that use OpenGL ES API.
 
 ## Define Quality Settings
+
 - In the menu, go to Edit > Project Settings > Quality.
 - In Pixel Light Count, <mark>set the maximum number of pixel light count to one.</mark>
 - In Texture Quality, select Full Res to display textures at maximum resolution.
@@ -49,6 +59,7 @@ With the Unity version 2019.3 and higher, Unity has introduced the XR plug-in fr
 - Select Billboards Face Camera to force billboards to face the camera while rendering instead the camera plane.
 
 ## Generate Android Manifest File
+
 Oculus has automated the process of adding the metadata in the manifest file and you need to generate the Android Manifest file from Unity.
 
 - To generate the Oculus store-compatible Android manifest file, in the menu, go to Oculus > Tools > Create store-compatible AndroidManifest.xml.
