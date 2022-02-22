@@ -26,7 +26,7 @@ title: Oculus Quest 2 First Build
 - Add OVRControllerPrefab to Child of Left and Right ControllerAnchor.
 
 <p align="center">
-  <img src="/assets/images/21-02-22/1.png">
+  <img src="../assets/images/21-02-22/1.png">
 </p>
 
 - Change Controller to L Touch and R Touch Respective of Hand.
