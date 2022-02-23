@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Oculus Quest 2 First Build
+title: Oculus Quest 2 First Build (Controllers in 3D Space)
 ---
 
 **Oculus Quest 2 Unity Development Environment Setup** [Required](https://metalonecoder.github.io/2022/02/21/Oculus-Quest-2-Unity-Development-Environment-Setup/) 
